@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>User Login Page</title>
+</head>
+
+<body onload= "verticalCenter()">
+  <div id = "pageHeader"> The UB Journal </div>
+	<div id="container">
+		<input id = "username_input" placeholder = "Username" type = "text">
+    <input  id = "password_input" placeholder = "Password" type = "password">
+    </div>
+    <table align = "center">
+      <tr>
+      <th><button onclick = "check()" id = "submit">Login</button></th>
+      <th><button onclick = "createUser()" id = "create">Create Account</button></th>
+      </tr>
+    </table>
+</body>
+  <script type="text/javascript" src = "UBJournal.js"></script>
+</html>

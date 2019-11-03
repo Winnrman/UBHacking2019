@@ -1,0 +1,50 @@
+
+input{
+  display:block;
+  margin:0 auto;
+  margin-top:10px;
+  width:200px;
+  height:21px;
+  padding-left:5px;
+  font-size:12px;
+  margin-bottom:10px;
+}
+input:focus{
+  background:#f2f2f2;
+  outline:none;
+  border:1px solid #c3c3c3;
+  height:23px;
+}
+button{
+  width:100px;
+  height:24px;
+  border:1px solid #c3c3c3;
+  background:white;
+  font-size: 11px;
+  /* display:block;
+  margin:0 auto; */
+}
+button:focus{
+  outline:none;
+}
+button:hover{
+  background:#f2f2f2;
+  cursor:pointer; 
+}
+button:active{
+  background:#d9d9d9;
+}
+#pageHeader{
+  height: 70px;
+  background-color: white; 
+  background-image: linear-gradient(to right, #007a99, #c2f0f0);border-radius: 30px; 
+  margin-top: 5px; 
+  margin: 5px;
+  font-size: 40px;
+  font-family: "Liu Jian Mao Cao", cursive;
+  padding-top: 10px
+
+}
+body{
+  background-image: url('https://www.publicdomainpictures.net/pictures/200000/nahled/damask-pattern-background-blue-1477671794jKy.jpg');
+}

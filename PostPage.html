@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="PostPage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width">
+  <title>Post Page</title>
+</head>
+<body onload = "twoInOne()">
+    <div id = "headerDiv">
+      <h2 id = "title">The UB Journal</h2>
+      <button class = "basic button" id = "create_post_button" onclick = "gotoPosts()">My Posts</button>
+      <button class = "basic button" id = "posts_button" onclick = "gotoNewPost()">New Post</button>
+
+    </div>
+    <div id = "mainContainer"></div>
+<table>
+  <div style = "display: none;" id = "postContainer">
+  <div class = "basic" id = "postWindow">
+    <textarea class = "basic" id = "post"></textarea>
+  </div>
+    <button onclick = "createPostIcon()" class = "basic" id = "submitButton">Submit</button>
+</div>
+  <script type="text/javascript" src = "PostPage.js"></script>
+<button class = "basic button" id = "newPostButton">New Post</button>
+  
+  
